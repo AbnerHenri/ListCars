@@ -14,4 +14,8 @@ export class CarroService {
   public getCars(): Observable<ICarro> {
     return this.http.get<ICarro>(`${environment.apiUrl}/carros`);
   }
+
+  public addCar(car: ICarro): Observable<ICarro> {
+    return this.http.post<ICarro>(`${environment.apiUrl}/carros`, car);
+  }
 }

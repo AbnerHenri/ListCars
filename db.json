@@ -6,6 +6,27 @@
       "marca": "Fiat",
       "ano": 2006,
       "dono": "Haik Heres"
+    },
+    {
+      "id": 2,
+      "nome": "Marea turbo",
+      "marca": "Sei lá",
+      "ano": "202",
+      "dono": "Biel Lopes"
+    },
+    {
+      "id": 3,
+      "nome": "Maréa",
+      "marca": "Fiat",
+      "ano": "0513531",
+      "dono": "Biel Lopes"
+    },
+    {
+      "id": 4,
+      "nome": "Marea turbo",
+      "marca": "Fiat",
+      "ano": "0315",
+      "dono": "FormsModule"
     }
   ]
 }

@@ -1,0 +1,22 @@
+<form (submit)="adicionarCarro(carro)">
+  <div class="Form">
+    <div class="Input">
+      <label>Carro</label>
+      <input type="text" required [(ngModel)]="carro.nome" name="carro" />
+    </div>
+    <div class="Input">
+      <label>Marca</label>
+      <input type="text" required [(ngModel)]="carro.marca" name="marca" />
+    </div>
+    <div class="Input">
+      <label>Ano</label>
+      <input type="text" required [(ngModel)]="carro.ano" name="ano" />
+    </div>
+    <div class="Input">
+      <label>Nome do Dono</label>
+      <input type="text" required [(ngModel)]="carro.dono" name="dono" />
+    </div>
+  </div>
+
+  <button>Adicionar Carro</button>
+</form>

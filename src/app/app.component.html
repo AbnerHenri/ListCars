@@ -1,5 +1,8 @@
-<h2>Carros</h2>
+<div class="Container">
+  <h2>Carros</h2>
 
-<div *ngFor="let carro of listCars">
-  <app-carro [car]="carro"></app-carro>
+  <app-form></app-form>
+  <div *ngFor="let carro of listCars">
+    <app-carro [car]="carro"></app-carro>
+  </div>
 </div>
