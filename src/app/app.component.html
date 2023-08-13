@@ -1,1 +1,7 @@
-<h2>Hello World</h2>
+<h2>Carros</h2>
+
+<div *ngFor="let carro of listCars">
+  <h3>Carro: {{ carro.nome }}</h3>
+  <h4>Marca: {{ carro.marca }}</h4>
+  <h4>Dono: {{ carro.dono }}</h4>
+</div>
