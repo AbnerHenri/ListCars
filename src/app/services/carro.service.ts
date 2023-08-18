@@ -18,4 +18,14 @@ export class CarroService {
   public addCar(car: ICarro): Observable<ICarro> {
     return this.http.post<ICarro>(`${environment.apiUrl}/carros`, car);
   }
+
+  public editCar(car: ICarro): Observable<ICarro> {
+    const URL = `${environment.apiUrl}/carros/${car.id}`;
+    return this.http.put<ICarro>(URL, car);
+  }
+
+  public delCar(id: number): Observable<ICarro> {
+    const URL = `${environment.apiUrl}/carros/${id}`;
+    return this.http.delete<ICarro>(URL);
+  }
 }

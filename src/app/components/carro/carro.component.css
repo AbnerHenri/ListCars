@@ -1,4 +1,5 @@
 .Container-car {
+  position: relative;
   border: 1px solid black;
   box-shadow: 4px 4px 4px gray;
 
@@ -11,4 +12,14 @@ h4 {
   font-size: x-large;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 10px;
+}
+
+.EditAndDelete {
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+}
+
+.EditAndDelete button {
+  margin-left: 10px;
 }
